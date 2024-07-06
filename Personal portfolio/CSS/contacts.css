@@ -1,0 +1,92 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:wght@400;500;700&display=swap');
+
+html, body {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    background-color: #FFFFFF;
+}
+
+#navigator {
+    display: flex;
+    padding: 20px;
+    padding-left: 115px;
+    font-size: 24px;
+    border-bottom: 1px solid #26292D;
+    background-color: #171817;
+}
+
+#nav-buttons {
+    font-size: 21px;
+    display: flex;
+    margin-left: 1000px;
+    justify-content: space-between;
+    column-gap:90px;
+}
+
+#nav-links {
+    color: #FFF;
+    position: relative;
+}
+
+#nav-links:hover    {
+    color: #5C62EC;
+}
+
+#nav-links:hover:before {
+    transform: scaleX(1);
+    transition: transform 0.37s;
+}
+
+#nav-links:before   {
+    content: '';
+    width: 100%;
+    height: 2.5px;
+    background-color: #5C62EC;
+    position: absolute;
+    left: 0px; bottom: -5px;
+    transform: scaleX(0);
+}
+
+#contacts_css {
+    font-family: "DM Sans", sans-serif;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 90px;
+    letter-spacing: 5px;
+    color: #171718;
+}
+
+#contact_header {
+    color: #5C62EC;
+}
+
+#location {
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+#place  {
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+#social_media {
+    margin-left: 72px;
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+#phone_number {
+    font-size: 18px;
+    margin-left: 35px;
+}
+
+#email  {
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+#email_addres {
+    font-size: 18px;
+}
